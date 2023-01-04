@@ -7,21 +7,21 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "14246641"))
-API_HASH = getenv("API_HASH", "6f0711cf1fac7dbb09a2bed95c36e673")
+API_ID = int(getenv("API_ID", ""))
+API_HASH = getenv("API_HASH", "")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "5523050102:AAFBQpkMSqFKktNRReJ7WKufCCXIW7irtq4")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Oyehoye143:Oyehoye143@cluster0.xjt3bmb.mongodb.net/?retryWrites=true&w=majority")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001838631758"))
+MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝐑𝐨𝐦𝐞𝐨_𝐑𝐉")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "1720551159").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Oye-hoyeeeeee/AnonXMusic")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Oye-hoyeeeeee/AnonXMusicpp")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
@@ -58,7 +58,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", "BQBIVFdLuBf-E37U4PY952jnLZxItqP_Amf1MJvizjao6FBHtXcdHlADn90_ukI8G--2w2_mEk5pEy3bUr5xJ67lGnjitRKdigNyo33r9lIlJzHPMOLoXaABmInsziNEGB6mq95F7MTrddkzAVYHxVQixVuWuEBls9T8HYcUcfUeBY8EXGND-1wgrMis9eUiLifvofITrp8P1BR8vBCDtkITZwJIDlS8kTGeqGtt3na26ENszrZuyanZyH8O_USi06mZPNeZYj3o_TRyFkaxKvN5agfaXUKgDlacOopZopIgjmCAajDGYrTv6C6MnKJGpEr3lDuu_yGZisO97l8Mroz5Zo2G9wA")
+STRING1 = getenv("STRING_SESSION", "")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
